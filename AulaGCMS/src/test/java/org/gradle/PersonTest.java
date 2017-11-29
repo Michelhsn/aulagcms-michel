@@ -8,5 +8,7 @@ public class PersonTest {
     public void canConstructAPersonWithAName() {
         Person person = new Person("Larry");
         assertEquals("Larry", person.getName());
+        int a = 4/0;
+        System.out.println("a");
     }
 }
